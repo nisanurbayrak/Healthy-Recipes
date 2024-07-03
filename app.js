@@ -142,7 +142,7 @@ const recipe = [
 
 //navbar
 const navbarContent=`
-<nav class="navbar navbar-md navbar-expand-lg navbar-light bg-light sticky-top poppins-medium mb-1">
+<nav class="navbar navbar-md navbar-expand-lg navbar-light bg-light sticky-top poppins-medium">
         <a class="navbar-brand" href="#">HEALTHY RECIPES</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -293,16 +293,6 @@ $(document).on('click', '#random-recipe-btn', function() {
     
 });
     
-// footer
-const footerContent = `
-    <footer class="bg-light text-center poppins-medium">
-        <p>&copy; 2024 Healthy Recipes. All rights reserved.</p>
-    </footer>
-`;
-document.addEventListener('DOMContentLoaded', function() {
-    document.body.insertAdjacentHTML('beforeend', footerContent);
-});
-
 const recipeList = () => {
     const content = document.querySelector(".recipeClass");
     content.innerHTML = "";
