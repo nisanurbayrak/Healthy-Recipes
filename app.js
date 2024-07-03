@@ -251,7 +251,7 @@ $(document).ready(function() {
 // recipes.html sayfası seçili id-den tarif gelir
 const recipesDOM = (param) => `
         <div class="col-md-6 col-sm-12 p-3 d-flex align-items-center justify-content-center my-2">
-            <img src="${param.image}" alt="${param.recipe_name}" style="border-radius: 50px; height: 25rem; width: 25rem;" class="me-3 border border-2 align-items-center justify-content-center">
+            <img src="${param.image}" alt="${param.recipe_name}" style="border-radius: 50px; height: 20rem; width: 25rem;" class="me-3 border border-2 align-items-center justify-content-center">
         </div>
         <div class="col-md-6 col-sm-12">
             <h4 class="display-4 poppins-medium">${param.recipe_name}</h4>
