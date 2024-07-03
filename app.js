@@ -143,24 +143,28 @@ const recipe = [
 //navbar
 const navbarContent=`
 <nav class="navbar navbar-md navbar-expand-lg navbar-light bg-light sticky-top poppins-medium">
-        <a class="navbar-brand" href="#">HEALTHY RECIPES</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item navLink">
-                    <a class="nav-link"  href="index.html">Home</a>
-                </li>
-                <li class="nav-item navLink">
-                    <a class="nav-link" href="index.html#popularRecipe">Popular Recipes</a>
-                </li>
-                <li class="nav-item navLink">
-                    <a class="nav-link" href="index.html#recipes">Recipes</a>
-                </li>
-            </ul>
-        </div>
-    </nav>`;
+    <a class="navbar-brand" href="#">HEALTHY RECIPES</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item navLink">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item navLink">
+                <a class="nav-link" href="index.html#popularRecipe">Popular Recipes</a>
+            </li>
+            <li class="nav-item navLink">
+                <a class="nav-link" href="index.html#recipes">Recipes</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Bootstrap JavaScript dosyalarını eklemeyi unutmayın -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+`;
 document.addEventListener('DOMContentLoaded', function() {
     document.body.insertAdjacentHTML('afterbegin', navbarContent);
 });
